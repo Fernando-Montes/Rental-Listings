@@ -11,7 +11,7 @@ Machine learning project created with the goal to predict the number of inquirie
 -   **ComparisonFeatures.R**: Source to add features from neighFeaturesTrain.RData, ManagerFeatures.RData, buildingFeatures.RData and some additional engineered features (i.e. number of features in a given apartment compared to other apartments in the same neighborhood) into a data frame that includes all the features to be included in the model (AllData.RData).
 -   **h2o-model.R**: File to run a single gbm model with different feature sets using the h20 package.
 -   **h2o-model-optimization.R**: File to find and optimize hyper-parameters of the model.
--   **ModelAnalysis.R**: File to run a random forest, generalized linear model and a boosted regression model on the data. The implementation is done using the caret R package (*r**a**n**g**e**r*, *g**l**m**n**e**t*, *g**b**m*, methods respectively). Some hyper-parameter optimization has been done but further optimization is necessary.
+-   **ModelAnalysis.R**: File to run a random forest, generalized linear model and a boosted regression model on the data. The implementation is done using the caret R package (ranger, glmnet, gbm, methods respectively). Some hyper-parameter optimization has been done but further optimization is necessary.
 
 -   **Visual.R**: File to visualize data.
 -   **CreatePhotoDataFrame.R**: Helper file to create CSV file with website information where to find photos for a given apartment.
